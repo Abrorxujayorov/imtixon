@@ -1,0 +1,93 @@
+.footer {
+    // position: relative;
+    // display: block;
+    height: 300px;
+    background-image: url(/images/Mask.png);
+
+    &__div {
+        // position: absolute;
+        // display: block;
+        width: 1440px;
+        height: 96px;
+        background: #333A44;
+        margin-top: 73px;
+
+    }
+
+    &__dflex {
+        width: 1150px;
+        margin: 0 auto;
+        padding-top: 50px;
+        // border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__top h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        /* or 100% */
+        width: 415px;
+        height: 96px;
+        letter-spacing: -2.14286px;
+
+        color: #FFFFFF;
+
+    }
+
+    &__items a {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+        text-decoration: none;
+        margin-left: 20px;
+        color: #939CAA;
+
+    }
+
+    &__lists {
+        list-style: none;
+        display: flex;
+        // border: 1px solid;
+        justify-content: space-between;
+    }
+
+    &__boxs {
+        display: flex;
+        // border: 1px solid;
+        align-items: center;
+        margin-left: -40px;
+    }
+
+    &__icon {
+        width: 100px;
+        display: flex;
+        // border: 1px solid;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__icon i {
+        font-size: 25px;
+        color: #FCB72B;
+    }
+
+    &__about {
+        width: 1150px;
+        // border: 1px solid;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    &__items a:hover {
+        color: #FCB72B;
+    }
+    &__icon i:hover{
+        color: white;
+    }
+}

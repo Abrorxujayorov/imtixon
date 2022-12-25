@@ -1,0 +1,97 @@
+ body {
+     width: 1440px;
+     height: 3777px;
+     margin: 0 auto;
+     justify-content: center;
+     //  border: var(--border);
+     font-family: 'Space Mono', monospace;
+     background: #d7d6d6;
+
+ }
+
+ :root {
+     --border: 1px solid;
+ }
+
+ .container {
+     background: #FFFFFF;
+
+ }
+
+ .header {
+     width: 1440px;
+     //  border: var(--border);
+     position: fixed;
+     background: #faf8f8;
+     padding-bottom: 20px;
+     margin-top: -90px;
+
+     &__list {
+         width: 1106px;
+         height: 53px;
+         list-style: none;
+         display: flex;
+         justify-content: space-between;
+         //  border: var(--border);
+         margin: 0 auto;
+         padding-top: 20px;
+
+     }
+
+     &__content {
+         width: 300px;
+         height: 53px;
+         display: flex;
+         justify-content: space-between;
+         //  border: var(--border);
+         align-items: center;
+         margin-left: -25px;
+     }
+
+     &__item a {
+         text-decoration: none;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 15px;
+         line-height: 25px;
+         /* identical to box height, or 167% */
+         margin-left: 20px;
+
+         color: #939CAA;
+
+     }
+
+     &__item a:hover {
+         color: #FCB72B;
+         border-bottom: 2px solid #FCB72B;
+     }
+
+     &__item button {
+         width: 180px;
+         height: 53px;
+         background: #FCB72B;
+         border: #FCB72B;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 15px;
+         line-height: 25px;
+         /* identical to box height, or 167% */
+
+         text-align: center;
+
+         color: #FFFFFF;
+
+     }
+
+     &__item button:hover {
+         background: #FFFFFF;
+         color: #FCB72B;
+         border: 2px solid #FCB72B;
+     }
+     &__icons{
+        display: none;
+     }
+
+
+ }
+
